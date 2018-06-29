@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "&Игра"
+    BEGIN
+        MENUITEM "&Новая игра",                 ID_GAME_NEW
+        MENUITEM "&Выход",                      ID_GAME_EXIT
+    END
+    POPUP "&Информация"
+    BEGIN
+        MENUITEM "Лучшие &результаты",          ID_HELP_TOP10
+        MENUITEM "&О програме ...",             ID_HELP_ABOUT, INACTIVE
+    END
+END
+
+#endif    // Русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Images\\MyIcon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 186, 38
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Закрыть",IDCANCEL,123,8,52,18
+    ICON            IDI_ICON1,IDC_STATIC,12,6,20,20
+    LTEXT           "SB Tetris v.1.0   ",IDC_STATIC,43,7,74,8
+    LTEXT           "by Serega Belobrovik",IDC_STATIC,44,18,71,10
+END
+
+IDD_TOP10 DIALOGEX 0, 0, 385, 157
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Лучшие результаты"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Закрыть",IDCANCEL,314,131,50,14
+    EDITTEXT        IDC_EDIT1,32,17,125,12,ES_MULTILINE | ES_READONLY | ES_WANTRETURN | NOT WS_VISIBLE
+    LISTBOX         IDC_LIST1,32,23,330,105,LBS_SORT | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_GROUP | WS_TABSTOP
+    CONTROL         "Счет      Линий      Уровень",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,246,9,119,11
+END
+
+IDD_SETNAME DIALOGEX 0, 0, 245, 53
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Отличный результат"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,18,28,129,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ОК",IDOK,167,28,50,14
+    LTEXT           "Введите ваше имя:",IDC_STATIC,19,14,66,8
+END
+
+IDD_SETLEVEL DIALOGEX 0, 0, 137, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Уровень игры"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_LEVEL,19,17,40,14,ES_CENTER
+    DEFPUSHBUTTON   "ОК",IDOK,80,28,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 182
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_TOP10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_SETNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_SETLEVEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TOP10 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SETNAME AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SETLEVEL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Иврит (Израиль) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+#pragma code_page(1255)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Иврит (Израиль) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

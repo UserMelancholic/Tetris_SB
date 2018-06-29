@@ -1,0 +1,11 @@
+﻿  Tetris.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note:  см. объявление "MBCS_Support_Deprecated_In_MFC"
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+d:\prog\c++\kursrab\tetris\tetris.cpp(313): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\prog\c++\kursrab\tetris\tetris.cpp(734): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\prog\c++\kursrab\tetris\tetris.cpp(803): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+d:\prog\c++\kursrab\tetris\tetris.cpp(819): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+  Tetris.vcxproj -> d:\Prog\C++\KursRab\Tetris\.\Debug\Tetris.exe
